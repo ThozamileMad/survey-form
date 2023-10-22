@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Random Survey</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <main>
+
+        <h1 id="title"> Random Survey </h1>
+        <p id="description"> This is a simple survey . </p>
+
+        <form id="survey-form" method="post">
+
+          <div>
+            <label id="name-label" for="name">
+              Name: 
+              <input id="name" type="text" name="name" placeholder="Enter your full name" required>
+            </label>
+          </div>
+
+          <div>
+            <label id="email-label" for="email">
+              Email: 
+              <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+            </label>
+          </div>
+          
+          <div>
+            <label id="number-label" for="number">
+              Age:
+              <input id="number" type="number" name="age" min="16" max="100" placeholder="Enter your age" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="dropdown">
+              Do you own any pets?
+              <select id="dropdown">
+                  <option> Select an option </option>
+                  <option>Yes</option>
+                  <option>No</option>
+              </select>
+            </label>
+          </div>
+
+          <div>
+
+          <div>
+            <p class="question"> What is your sexuality? </p>
+            <label for="heterosexual">
+              <input id="heterosexual" type="radio" name="radio-option"  value="heterosexual" checked>
+              Heterosexual
+            </label>
+
+            <label for="homosexual">
+              <input id="homosexual" type="radio" name="radio-option" value="homosexual">
+              Homosexual
+            </label>
+
+            <label for="bisexual">
+              <input id="bisexual" type="radio" name="radio-option" value="bisexual">
+              Bisexual
+            </label>
+
+            
+            <label for="wont-say">
+              <input id="wont-say" type="radio" name="radio-option" value="wont-say">
+              Prefer not to say
+            </label>
+          </div>
+
+          <div>
+            <p class="question"> What are your personality traits? </p>
+            <label for="aggressive">
+              <input id="aggressive" type="checkbox" value="aggressive">
+              Aggressive
+            </label>
+
+            <label for="absent-minded">
+              <input id="absent-minded" type="checkbox" value="absent-minded">
+              Absent-minded
+            </label>
+
+            <label for="talkative">
+              <input id="talkative" type="checkbox" value="talkative">
+              Talkative
+            </label>
+
+            <label for="irritable">
+              <input id="irritable" type="checkbox" value="irritable">
+              Irritable
+            </label>
+
+            <label for="calm">
+              <input id="calm" type="checkbox" value="calm">
+              Calm
+            </label>     
+
+            <label for="quiet">
+              <input id="quiet" type="checkbox" value="quiet">
+              Quiet
+            </label>
+
+            <label for="serious">
+              <input id="serious" type="checkbox" value="serious">
+              Serious
+            </label> 
+          </div> 
+
+          <div>
+            <p class="question"> Any questions or comments? </p>
+            <label for="textbox">
+              <textarea id="textbox"></textarea>
+            </label>
+          </div>
+
+          <input id="submit" type="submit">
+        </form>
+      </main
+    </body>
+  </html>
+ 
